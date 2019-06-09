@@ -1,9 +1,9 @@
 {
-  "name": "console-log-highlighter",
-  "displayName": "Console.log Highlighter",
-  "description": "A simple extension to show off the decorations API",
+  "name": "epmtestharness-runner",
+  "displayName": "epmtestharness runner",
+  "description": "Run individual epmtestharness tests",
   "version": "0.0.1",
-  "publisher": "lannonbr",
+  "publisher": "smhc",
   "engines": {
     "vscode": "^1.27.0"
   },
@@ -11,9 +11,9 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
-    "onLanguage:typescript"
+    "onLanguage:epm"
   ],
+  "keywords": ["epm", "epmtestharness", "test"],
   "main": "./out/extension",
   "contributes": {},
   "scripts": {
